@@ -14,6 +14,7 @@ public class Ticker {
     }
 
     public void startTick(){
+        System.gc();
         lastTick = System.nanoTime();
     }
 
